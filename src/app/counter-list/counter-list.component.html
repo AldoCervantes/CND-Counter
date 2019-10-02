@@ -1,0 +1,7 @@
+<div>
+    <h2>{{ name }}</h2>
+
+    <button (click)="create()">Create</button>
+
+    <counter *ngFor="let counter of counters" [counter]="counter"></counter>
+</div>
